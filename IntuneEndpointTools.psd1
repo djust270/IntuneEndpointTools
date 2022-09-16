@@ -78,7 +78,7 @@
 	NestedModules = @()
 	
 	# Functions to export from this module
-	FunctionsToExport = @(),'Get-IntuneMDMDiagReport','Get-IntuneEventLogs','Invoke-IntuneSync' #For performance, list functions explicitly
+	FunctionsToExport = @(),'Get-IntuneMDMDiagReport','Get-IntuneEventLogs','Invoke-IntuneSync','Invoke-IntuneAppAssignmentReprocess'#For performance, list functions explicitly
 	
 	# Cmdlets to export from this module
 	CmdletsToExport = '*' 

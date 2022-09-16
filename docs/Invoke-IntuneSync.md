@@ -8,7 +8,7 @@ schema: 2.0.0
 # Invoke-IntuneSync
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Force a device check-in with Intune
 
 ## SYNTAX
 
@@ -17,13 +17,13 @@ Invoke-IntuneSync
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+Force device check-in by running the associated scheduled tasks created by Intune and restarting the Intune Management Extension.
 
 ## EXAMPLES
 
 ### Example 1
 ```powershell
-PS C:\> {{ Add example code here }}
+PS C:\> Invoke-IntuneSync
 ```
 
 {{ Add example description here }}

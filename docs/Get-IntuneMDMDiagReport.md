@@ -8,7 +8,7 @@ schema: 2.0.0
 # Get-IntuneMDMDiagReport
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Export and open the MDM Diagnostic HTML report file
 
 ## SYNTAX
 
@@ -17,22 +17,18 @@ Get-IntuneMDMDiagReport [[-OutputFolder] <String>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+Export and open the MDM Diagnostic HTML report file by calling the MDMDiagnosticsTool. Exported report will include device and policy details. 
 
 ## EXAMPLES
 
 ### Example 1
 ```powershell
-PS C:\> {{ Add example code here }}
+PS C:\> Get-IntuneMDMDiagReport
 ```
-
-{{ Add example description here }}
-
 ## PARAMETERS
 
 ### -OutputFolder
-{{ Fill OutputFolder Description }}
-
+Folder path where diagnostic report should be saved. Default location is C:\IntuneDiagnostics
 ```yaml
 Type: String
 Parameter Sets: (All)
