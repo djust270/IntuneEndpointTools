@@ -23,6 +23,6 @@ This command will force the reprocessing of all assigned Win32 applications. Use
 This is equivalent to the "Collect Diagnostics" action in Endpoint Manager and will save the diagnostic package locally to a zipfolder. Default location is C:\IntuneDiagnostics. Use ```-OutputFolder``` to specify another location 
 **NOTE:** This command requires administrative privilege. 
 
-## [Disable-IntuneESP.ps1]
+## [Disable-IntuneESP.ps1](docs/Disable-IntuneESP.md)
 This command will disable the Enrollment Status Page (ESP). Useful if a device gets stuck in the ESP phase and cant proceed to the desktop due to errors or timeout. 
 See help file for details on using this during OOBE.
