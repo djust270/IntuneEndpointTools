@@ -1,6 +1,6 @@
 # IntuneEndpointTools
 A PowerShell module containing a set of tools for managing and diagnosing Intune MDM on Windows endpoints designed with Intune support staff in mind. 
-[PowerShell Gallery](https://www.powershellgallery.com/packages/IntuneEndpointTools/1.0)
+[PowerShell Gallery](https://www.powershellgallery.com/packages/IntuneEndpointTools/1.1)
 
 To install:
 ```powershell
@@ -14,13 +14,13 @@ This function will force an immediate check-in to Intune by running the associat
 This function will display all event logs listed under the log file DeviceManagement-Enterprise-Diagnostics. Use the paramater ```-ErrorOnline``` to display error, warning, and critical level events. 
 
 ## [Get-IntuneMDMDiagReport](docs/Get-IntuneMDMDiagReport.md)
-This command will invoke the MDMDiagnosticsTool and open the MDM Diagnostics HTML report. This report details device info, MDM Policy CSPSettings, certificates, configuration sources, and resource information.
+This command will invoke the MDMDiagnosticsTool and open the MDM Diagnostics HTML report. This report details device info, MDM Policy CSPSettings, certificates, configuration sources, and resource information. Default location is C:\IntuneDiagnostics. Use ```-OutputFolder``` to specify another location. 
 
 ## [Invoke-IntuneAppAssignmentReprocess](docs/Invoke-IntuneAppAssignmentReprocess.md)
 This command will force the reprocessing of all assigned Win32 applications. Useful if you want to force an application to re-attempt installation after failing 3 times. 
 
 ## [Export-IntuneDiagnosticsPackage](docs/Export-IntuneDiagnosticPackage.md)
-This is equivalent to the "Collect Diagnostics" action in Endpoint Manager and will save the diagnostic package locally to a zipfolder. Default location is C:\IntuneDiagnostics. Use ```-OutputFolder``` to specify another location 
+This is equivalent to the "Collect Diagnostics" action in Endpoint Manager and will save the diagnostic package locally to a zipfolder. Default location is C:\IntuneDiagnostics. Use ```-OutputFolder``` to specify another location. 
 **NOTE:** This command requires administrative privilege. 
 
 ## [Disable-IntuneESP.ps1](docs/Disable-IntuneESP.md)
