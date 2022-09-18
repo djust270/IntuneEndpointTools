@@ -4,7 +4,7 @@
 	RootModule = 'IntuneEndpointTools.psm1'
 	
 	# Version number of this module.
-	ModuleVersion = '1.0'
+	ModuleVersion = '1.2'
 	
 	# ID used to uniquely identify this module
 	GUID = '078b865d-6313-4a52-b910-86f32bd24f85'
@@ -19,7 +19,7 @@
 	Copyright = '(c) 2022. All rights reserved.'
 	
 	# Description of the functionality provided by this module
-	Description = 'Module description'
+	Description = 'A PowerShell module containing a set of tools for managing and diagnosing Intune MDM on Windows endpoints designed with Intune support staff in mind.'
 	
 	# Minimum version of the Windows PowerShell engine required by this module
 	PowerShellVersion	   = '5.1'
