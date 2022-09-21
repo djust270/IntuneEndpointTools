@@ -1,7 +1,7 @@
 # IntuneEndpointTools
 A PowerShell module containing a set of tools for managing and diagnosing Intune MDM on Windows endpoints designed with Intune support staff in mind. 
 
-[PowerShell Gallery Page](https://www.powershellgallery.com/packages/IntuneEndpointTools/1.1)
+[PowerShell Gallery Page](https://www.powershellgallery.com/packages/IntuneEndpointTools/1.2)
 
 To install:
 ```powershell
