@@ -12,7 +12,7 @@ This function will force an immediate check-in to Intune by running the associat
 **NOTE:** This command requires administrative privilege. 
 
 ## [Get-IntuneEventLogs](docs/Get-IntuneEventLogs.md)
-This function will display all event logs listed under the log file DeviceManagement-Enterprise-Diagnostics. Use the paramater ```-ErrorOnline``` to display error, warning, and critical level events. 
+This function will display all event logs listed under the log file DeviceManagement-Enterprise-Diagnostics. Use the paramater ```-ErrorOnly``` to display error, warning, and critical level events. 
 
 ## [Get-IntuneMDMDiagReport](docs/Get-IntuneMDMDiagReport.md)
 This command will invoke the MDMDiagnosticsTool and open the MDM Diagnostics HTML report. This report details device info, MDM Policy CSPSettings, certificates, configuration sources, and resource information. Default location is C:\IntuneDiagnostics. Use ```-OutputFolder``` to specify another location. 
